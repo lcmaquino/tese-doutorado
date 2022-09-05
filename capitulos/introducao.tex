@@ -1,0 +1,112 @@
+\chapter{INTRODUÇÃO}
+
+Neste capítulo, a contextualização da tese, os seus objetivos, as produções 
+científicas oriundas até o momento desse trabalho e a estrutura do texto são 
+apresentados.
+
+\section{CONTEXTUALIZAÇÃO DA TESE}\label{sec:contextualizacao}
+
+Uma parte importante no processo de estudar o sistema cardiovascular é a criação 
+de modelos geométricos das árvores vasculares ao nível da circulação periférica 
+devido à escassez de dados anatômicos dos leitos periféricos. Além disso, a 
+atual resolução dos dispositivos médicos de aquisição de imagem (CT, MRI, etc.) 
+não conseguem detectar vasos com diâmetro abaixo de uma fração de milímetros~\cite{Muller2008},
+como por exemplo os que estão abaixo do nível epicárdio no coração~\cite{Jaquet2019}.
+No momento apenas técnicas \textit{ex-vivo} podem ser usadas para 
+segmentar estas regiões, como por exemplo a criomicrotomia~\cite{Goyal2013},
+que basicamente consiste em endurecer os tecidos de interesse através de congelamento
+e efetuar cortes sucessivos, delgados e uniformes. Desse modo, modelos computacionais
+das árvores vasculares são muito úteis para simular e estudar a distribuição de fluxo 
+sanguíneo até o nível da microvasculatura.
+
+Esses modelos de árvores vasculares podem 
+ser construídos usando, por exemplo, métodos baseados em leis fractais 
+\cite{Van1989,Pelosi1987,Yang2013} 
+ou métodos de otimização como o \textit{Constrained Constructive Optimization} 
+(CCO)~\cite{Karch1999,Schreiner1993a,Schreiner1993b,Schreiner2006}. Dentre estas duas classes de métodos, 
+o método de otimização é bastante aceito na literatura dado que uma hipótese razoável para os sistemas 
+fisiológicos é que eles funcionam usando princípios de otimização~\cite{Kamiya1972,Murray1926,Thompson1992,Zamir1976}. 
+Nestes sistemas, por exemplo, o sangue é um recurso limitado e ao mesmo tempo vital para o correto funcionamento 
+do organismo. Parece condizente supor que a sua distribuição é otimizada de alguma forma.
+ 
+Nos últimos anos, novas variantes do método CCO
+foram propostas~\cite{Brito2017a,Brito2016,Brito2021,Georg2010,Jaquet2019,Meneses2017,Queiroz2013,Queiroz2018}
+para torná-lo mais flexível e útil para construção de modelos com propriedades desejáveis, como por exemplo, 
+o expoente da lei de bifurcação dependendo do 
+nível de bifurcação~\cite{Meneses2016}. Ele também já foi 
+utilizado como inspiração na construção de redes não vasculares, 
+como por exemplo, as redes de Purkinje cardíacas~\cite{Ulysses2018}, que 
+compõe o sistema de condução cardíaca responsável por gerar sinais elétricos e 
+coordenar sua distribuição por todo o coração.
+
+Tanto nos métodos formulados através de leis fractais quanto nos métodos 
+baseados em princípios de otimização, as árvores vasculares
+são consideradas basicamente como árvores binárias. Essas árvores binárias
+são formadas por segmentos, representando pequenos trechos cilíndricos
+de vasos, que estão conectados em bifurcações. Nas bifurcações, um segmento
+pai está relacionado com seus dois segmentos filhos através de uma lei 
+de potência que controla os raios envolvidos na bifurcação~\cite{Sherman1981}.
+
+Em linhas gerais, dado um domínio de perfusão, os métodos baseados em leis fractais 
+e o CCO possibilitam a construção de
+uma única árvore vascular, seja ela para a distribuição de sangue e nutrientes 
+(árvores arteriais) ou para a remoção do sangue e produtos metabólicos (árvores venosas). 
+Entretanto, diversas regiões do corpo humano têm a característica de serem vascularizadas 
+simultaneamente por mais de uma árvore vascular.
+
+\section{OBJETIVOS}
+
+O objetivo geral desta tese é desenvolver algoritmos que possibilitam 
+a construção de mais de uma árvore vascular por vez em um mesmo domínio de perfusão. 
+Já como objetivos específicos, destacam-se os seguintes:
+\begin{itemize}
+  \item desenvolver e implementar algoritmos baseados no método CCO para a construção
+  de florestas de árvores arteriais dentro do domínio de perfusão;
+  \item investigar propriedades morfométricas dos modelos gerados e leis alométricas.
+\end{itemize}
+
+\section{PRODUÇÕES CIENTÍFICAS}
+
+Os resultados deste trabalho geraram as seguintes produções científicas:
+
+\begin{itemize}
+ \item Queiroz, R. A. B., Aquino, L. C. M. Automatic Construction of Vascular Arteriovenous 
+ Tree Geometric Model. Proceeding Series of the Brazilian Society of 
+ Computational and Applied Mathematics. vol. 6, n. 2. 2018.
+ \item Aquino, L. C. M. de, Queiroz, R. A. B., Rocha, B. M. Construção automática de múltiplas
+ árvores circulatórias com controle de invasão de território. 
+ \emph{Trends in Computational and Applied Mathematics}. Em processo de revisão na revista.
+\end{itemize}
+
+\section{ORGANIZAÇÃO DA TESE}
+
+Esta tese é dividida em sete capítulos, sendo o primeiro formado por essa introdução e os demais conforme seguem:
+
+\begin{itemize}
+  \item \textbf{Capítulo 2: MODELOS COMPUTACIONAIS DE ÁRVORES CIRCULATÓRIAS}
+  
+  Neste capítulo é detalhado o método CCO, bem como abordagens baseadas nele
+  para construir múltiplas árvores dentro de um domínio de perfusão.
+  
+  \item \textbf{Capítulo 3: ALGORITMOS PROPOSTOS PARA CONSTRUÇÃO DE FLORESTA DE ÁRVORES ARTERIAIS}
+  
+  Neste capítulo é apresentado um algoritmo para a construção de uma floresta 
+  de árvores arteriais considerando um controle de invasão. Além disso, também
+  é apresentado um algoritmo que constrói uma floresta de árvores em dois estágios usando o diagrama de Voronoi.
+  
+  \item \textbf{Capítulo 4: RESULTADOS ALOMÉTRICOS E MORFOMÉTRICOS}
+  
+  Neste capítulo são exibidos e discutidos os resultados 
+  alométricos e morfométricos obtidos usando os algoritmos descritos no Capítulo 3. Por fim, o capítulo 
+  encerra com a discussão sobre os resultados obtidos nas simulações.
+
+  \item \textbf{Capítulo 5: CONCLUSÕES E TRABALHOS FUTUROS}
+  
+  Neste capítulo são expostas as conclusões gerais desse trabalho,
+  bem como são indicadas algumas propostas de trabalhos futuros.
+  
+  \item \textbf{APÊNDICE A: Notas sobre implementação computacional}
+  
+  Neste apêndice são apresentados alguns comentários sobre a implementação dos algoritmos
+  propostos nesta tese.
+\end{itemize}

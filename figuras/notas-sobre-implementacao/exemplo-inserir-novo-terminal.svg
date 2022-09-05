@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="503.57669"
+   height="315.77954"
+   viewBox="0 0 133.23801 83.550003"
+   version="1.1"
+   id="svg14011"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="exemplo-inserir-novo-terminal.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview14013"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     width="133.238mm"
+     units="px"
+     inkscape:zoom="2.6809743"
+     inkscape:cx="473.89488"
+     inkscape:cy="163.93294"
+     inkscape:window-width="1308"
+     inkscape:window-height="704"
+     inkscape:window-x="58"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs14008" />
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.257236;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect13058"
+       width="132.98067"
+       height="83.305603"
+       x="0.128665"
+       y="0.12220165" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.54746px;line-height:1.25;font-family:'TeX Gyre Pagella Math';-inkscape-font-specification:'TeX Gyre Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.122765"
+       x="19.229616"
+       y="74.486084"
+       id="text6886"
+       transform="scale(0.99992271,1.0000773)"><tspan
+         sodipodi:role="line"
+         id="tspan6884"
+         x="19.229616"
+         y="74.486084"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';stroke-width:0.122765">(a)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.54746px;line-height:1.25;font-family:'TeX Gyre Pagella Math';-inkscape-font-specification:'TeX Gyre Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.122765"
+       x="104.25331"
+       y="74.486084"
+       id="text10650"
+       transform="scale(0.99992271,1.0000773)"><tspan
+         sodipodi:role="line"
+         id="tspan10648"
+         x="104.25331"
+         y="74.486084"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';stroke-width:0.122765">(b)</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="path1917"
+       d="M 23.660549,8.86193 V 32.629138 L 2.0093263,47.417622"
+       style="fill:none;stroke:#000000;stroke-width:0.264588;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path1919"
+       d="M 23.660549,32.629138 33.229126,49.99529"
+       style="fill:none;stroke:#000000;stroke-width:0.264588;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       sodipodi:nodetypes="cc" />
+    <ellipse
+       cy="32.857544"
+       cx="23.666389"
+       id="circle1921"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.113689;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       rx="1.0633836"
+       ry="1.063548" />
+    <ellipse
+       cy="50.223694"
+       cx="33.468342"
+       id="circle1923"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.113689;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       rx="1.0633836"
+       ry="1.063548" />
+    <g
+       transform="matrix(0.13191102,0,0,0.13193141,28.705879,-17.130818)"
+       id="g1934">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;line-height:1.25;font-family:'TeX Gyre Pagella Math';-inkscape-font-specification:'TeX Gyre Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="-68.852814"
+         y="300.00055"
+         id="text1927"><tspan
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella Italic'"
+           sodipodi:role="line"
+           id="tspan1925"
+           x="-68.852814"
+           y="300.00055">a</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.3333px;line-height:1.25;font-family:'TeX Gyre Pagella Math';-inkscape-font-specification:'TeX Gyre Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="-90"
+         y="291.36215"
+         id="text1931"><tspan
+           sodipodi:role="line"
+           id="tspan1929"
+           x="-90"
+           y="291.36215"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella Italic'">s</tspan></text>
+    </g>
+    <g
+       id="g921"
+       transform="matrix(1.41305,0,0,1.41305,-8.6756609,-15.393614)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.48958px;line-height:1.25;font-family:'TeX Gyre Pagella Math';-inkscape-font-specification:'TeX Gyre Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0933589"
+         x="12.187448"
+         y="38.340763"
+         id="text1938"
+         transform="scale(0.9999227,1.0000773)"><tspan
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella Italic';stroke-width:0.0933589"
+           sodipodi:role="line"
+           id="tspan1936"
+           x="12.187448"
+           y="38.340763">b</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.97916px;line-height:1.25;font-family:'TeX Gyre Pagella Math';-inkscape-font-specification:'TeX Gyre Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0933589"
+         x="10.213171"
+         y="37.53429"
+         id="text1942"
+         transform="scale(0.9999227,1.0000773)"><tspan
+           sodipodi:role="line"
+           id="tspan1940"
+           x="10.213171"
+           y="37.53429"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella Italic';stroke-width:0.0933589">s</tspan></text>
+    </g>
+    <g
+       id="g927"
+       transform="matrix(1.41305,0,0,1.41305,-13.96733,-20.685284)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.48958px;line-height:1.25;font-family:'TeX Gyre Pagella Math';-inkscape-font-specification:'TeX Gyre Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0933589"
+         x="33.473343"
+         y="44.31575"
+         id="text1946"
+         transform="scale(0.9999227,1.0000773)"><tspan
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella Italic';stroke-width:0.0933589"
+           sodipodi:role="line"
+           id="tspan1944"
+           x="33.473343"
+           y="44.31575">c</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.97916px;line-height:1.25;font-family:'TeX Gyre Pagella Math';-inkscape-font-specification:'TeX Gyre Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0933589"
+         x="31.499065"
+         y="43.509281"
+         id="text1950"
+         transform="scale(0.9999227,1.0000773)"><tspan
+           sodipodi:role="line"
+           id="tspan1948"
+           x="31.499065"
+           y="43.509281"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella Italic';stroke-width:0.0933589">s</tspan></text>
+    </g>
+    <ellipse
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.113689;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle1952"
+       cx="2.6855364"
+       cy="46.885849"
+       rx="1.0633836"
+       ry="1.063548" />
+    <text
+       id="text1956"
+       y="62.576599"
+       x="24.200348"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.97916px;line-height:1.25;font-family:'TeX Gyre Pagella Math';-inkscape-font-specification:'TeX Gyre Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0933589"
+       xml:space="preserve"
+       transform="scale(0.9999227,1.0000773)"><tspan
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella Italic';stroke-width:0.0933589"
+         y="62.576599"
+         x="24.200348"
+         id="tspan1954"
+         sodipodi:role="line">…</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.97916px;line-height:1.25;font-family:'TeX Gyre Pagella Math';-inkscape-font-specification:'TeX Gyre Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0933589"
+       x="42.255051"
+       y="58.222977"
+       id="text1960"
+       transform="scale(0.9999227,1.0000773)"><tspan
+         sodipodi:role="line"
+         id="tspan1958"
+         x="42.255051"
+         y="58.222977"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella Italic';stroke-width:0.0933589">…</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.97916px;line-height:1.25;font-family:'TeX Gyre Pagella Math';-inkscape-font-specification:'TeX Gyre Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0933589"
+       x="21.554447"
+       y="7.0131545"
+       id="text1972"
+       transform="scale(0.9999227,1.0000773)"><tspan
+         sodipodi:role="line"
+         id="tspan1970"
+         x="21.554447"
+         y="7.0131545"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella Italic';stroke-width:0.0933589">…</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264588;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 27.225074,60.252164 6.004274,-10.256873 10.64063,6.287089"
+       id="path2042"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4151"
+       d="M 108.8512,8.86193 V 32.629138 L 87.199976,47.417622"
+       style="fill:none;stroke:#000000;stroke-width:0.264588;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <ellipse
+       cy="32.857544"
+       cx="108.85704"
+       id="circle4155"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.113689;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       rx="1.0633836"
+       ry="1.063548" />
+    <ellipse
+       cy="50.223694"
+       cx="118.65899"
+       id="circle4157"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.113689;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       rx="1.0633836"
+       ry="1.063548" />
+    <g
+       transform="matrix(0.13191102,0,0,0.13193141,113.63019,-17.130818)"
+       id="g4167">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;line-height:1.25;font-family:'TeX Gyre Pagella Math';-inkscape-font-specification:'TeX Gyre Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="-68.852814"
+         y="300.00055"
+         id="text4161"><tspan
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella Italic'"
+           sodipodi:role="line"
+           id="tspan4159"
+           x="-68.852814"
+           y="300.00055">a</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.3333px;line-height:1.25;font-family:'TeX Gyre Pagella Math';-inkscape-font-specification:'TeX Gyre Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="-90"
+         y="291.36215"
+         id="text4165"><tspan
+           sodipodi:role="line"
+           id="tspan4163"
+           x="-90"
+           y="291.36215"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella Italic'">s</tspan></text>
+    </g>
+    <g
+       id="g933"
+       transform="matrix(1.41305,0,0,1.41305,-42.542348,-15.393614)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.48958px;line-height:1.25;font-family:'TeX Gyre Pagella Math';-inkscape-font-specification:'TeX Gyre Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0933589"
+         x="97.384682"
+         y="38.340763"
+         id="text4171"
+         transform="scale(0.9999227,1.0000773)"><tspan
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella Italic';stroke-width:0.0933589"
+           sodipodi:role="line"
+           id="tspan4169"
+           x="97.384682"
+           y="38.340763">b</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.97916px;line-height:1.25;font-family:'TeX Gyre Pagella Math';-inkscape-font-specification:'TeX Gyre Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0933589"
+         x="95.410408"
+         y="37.53429"
+         id="text4175"
+         transform="scale(0.9999227,1.0000773)"><tspan
+           sodipodi:role="line"
+           id="tspan4173"
+           x="95.410408"
+           y="37.53429"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella Italic';stroke-width:0.0933589">s</tspan></text>
+    </g>
+    <g
+       id="g6432"
+       transform="matrix(0.09696312,0,0,0.09697811,432.61182,8.3040049)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36.278px;line-height:1.25;font-family:'TeX Gyre Pagella Math';-inkscape-font-specification:'TeX Gyre Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.36042"
+         x="-3271.0132"
+         y="302.81223"
+         id="text4179"><tspan
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella Italic';stroke-width:1.36042"
+           sodipodi:role="line"
+           id="tspan4177"
+           x="-3271.0132"
+           y="302.81223">c</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:72.556px;line-height:1.25;font-family:'TeX Gyre Pagella Math';-inkscape-font-specification:'TeX Gyre Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.36042"
+         x="-3299.7822"
+         y="291.06036"
+         id="text4183"><tspan
+           sodipodi:role="line"
+           id="tspan4181"
+           x="-3299.7822"
+           y="291.06036"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella Italic';stroke-width:1.36042">s</tspan></text>
+    </g>
+    <ellipse
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.113689;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle4185"
+       cx="87.876183"
+       cy="46.885849"
+       rx="1.0633836"
+       ry="1.063548" />
+    <text
+       id="text4189"
+       y="62.576599"
+       x="109.39758"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.97916px;line-height:1.25;font-family:'TeX Gyre Pagella Math';-inkscape-font-specification:'TeX Gyre Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0933589"
+       xml:space="preserve"
+       transform="scale(0.9999227,1.0000773)"><tspan
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella Italic';stroke-width:0.0933589"
+         y="62.576599"
+         x="109.39758"
+         id="tspan4187"
+         sodipodi:role="line">…</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.97916px;line-height:1.25;font-family:'TeX Gyre Pagella Math';-inkscape-font-specification:'TeX Gyre Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0933589"
+       x="127.45229"
+       y="58.222977"
+       id="text4193"
+       transform="scale(0.9999227,1.0000773)"><tspan
+         sodipodi:role="line"
+         id="tspan4191"
+         x="127.45229"
+         y="58.222977"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella Italic';stroke-width:0.0933589">…</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.97916px;line-height:1.25;font-family:'TeX Gyre Pagella Math';-inkscape-font-specification:'TeX Gyre Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0933589"
+       x="106.75169"
+       y="7.0131545"
+       id="text4197"
+       transform="scale(0.9999227,1.0000773)"><tspan
+         sodipodi:role="line"
+         id="tspan4195"
+         x="106.75169"
+         y="7.0131545"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella Italic';stroke-width:0.0933589">…</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264588;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 113.88611,41.50664 12.79731,2.571699"
+       id="path4954"
+       sodipodi:nodetypes="cc" />
+    <ellipse
+       cy="41.540623"
+       cx="113.65957"
+       id="circle5093"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.113689;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       rx="1.0633836"
+       ry="1.063548" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264588;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 108.8512,32.629138 9.56881,17.366152"
+       id="path6240" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264588;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 112.41573,60.252164 118.42,49.995291 129.06063,56.28238"
+       id="path4201"
+       inkscape:connector-curvature="0" />
+    <g
+       id="g14462"
+       transform="matrix(0.09696312,0,0,0.09697811,439.58305,12.894025)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36.278px;line-height:1.25;font-family:'TeX Gyre Pagella Math';-inkscape-font-specification:'TeX Gyre Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.36042"
+         x="-3271.0132"
+         y="302.81223"
+         id="text14456"><tspan
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella Italic';stroke-width:1.36042"
+           sodipodi:role="line"
+           id="tspan14454"
+           x="-3271.0132"
+           y="302.81223">i</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:72.556px;line-height:1.25;font-family:'TeX Gyre Pagella Math';-inkscape-font-specification:'TeX Gyre Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.36042"
+         x="-3299.7822"
+         y="291.06036"
+         id="text14460"><tspan
+           sodipodi:role="line"
+           id="tspan14458"
+           x="-3299.7822"
+           y="291.06036"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella Italic';stroke-width:1.36042">s</tspan></text>
+    </g>
+    <g
+       id="g15270"
+       transform="matrix(0.09696312,0,0,0.09697811,428.97669,20.635923)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36.278px;line-height:1.25;font-family:'TeX Gyre Pagella Math';-inkscape-font-specification:'TeX Gyre Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.36042"
+         x="-3271.0132"
+         y="302.81223"
+         id="text15264"><tspan
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella Italic';stroke-width:1.36042"
+           sodipodi:role="line"
+           id="tspan15262"
+           x="-3271.0132"
+           y="302.81223">i<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella'"
+   id="tspan1400">-</tspan><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella'"
+   id="tspan15426">1</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:72.556px;line-height:1.25;font-family:'TeX Gyre Pagella Math';-inkscape-font-specification:'TeX Gyre Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.36042"
+         x="-3299.7822"
+         y="291.06036"
+         id="text15268"><tspan
+           sodipodi:role="line"
+           id="tspan15266"
+           x="-3299.7822"
+           y="291.06036"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella Italic';stroke-width:1.36042">s</tspan></text>
+    </g>
+    <ellipse
+       cy="43.997475"
+       cx="125.78106"
+       id="ellipse16490"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.113689;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       rx="1.0633836"
+       ry="1.063548" />
+  </g>
+</svg>

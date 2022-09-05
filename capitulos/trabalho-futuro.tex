@@ -1,0 +1,23 @@
+\chapter{CONCLUSÕES E TRABALHOS FUTUROS} \label{conclusao}
+
+Esta tese contribui com o desenvolvimento de algoritmos para geração de múltiplas árvores 
+circulatórias dentro de um domínio de perfusão. Um dos algoritmos elaborados gera uma floresta de árvores 
+circulatórias controlando a invasão de cada árvore no território, ou seja, domínio de perfusão da outra. O outro algoritmo construído usa uma adaptação do diagrama de Voronoi
+para subdividir o domínio de perfusão em subdomínios disjuntos e, posteriormente,  gera
+dentro destes subdomínios cada árvore da floresta.
+
+Os resultados  oriundos dos modelos de árvores circulatórias gerados pelos algoritmos propostos foram alcançados em diferentes domínios de perfusão (bidimensionais  
+e tridimensionais) e demonstram ser bastante promissores quando 
+comparados com aqueles de~\cite{Jaquet2019,Karch1999}. Isto é, os resultados morfométricos 
+e o território vascular ocupado por cada árvore foi compatível com o fluxo alvo
+desejado em cada simulação.
+
+Destaca-se ainda que os modelos de árvores circulatórias gerados pelos algoritmos desenvolvidos satisfazem satisfatoriamente uma lei alométrica de sistemas biológicos apresentadas em ~\cite{West1997},  
+
+Como trabalhos futuros, pretendem-se:
+\begin{enumerate}
+  \item Investigar propostas de paralelização/otimização de cada parte componente dos algoritmos;
+  \item Analisar o comportamento dos algoritmos considerando variação no expoente de bifurcação e na viscosidade sanguínea;
+  \item Aplicar o algoritmo em domínios de perfusão obtidos em casos clínicos reais e 
+  verificar a viabilidade/qualidade dos modelos gerados para estudos hemodinâmicos. Através destes estudos, poderiam-se, por exemplo, obter informações das distribuições da pressão, fluxos e  de alguma substância (contraste) injetada na rede vascular do paciente que podem auxiliar a equipe médica em sua tomada de decisão.
+\end{enumerate}

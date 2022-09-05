@@ -1,0 +1,323 @@
+\documentclass[
+  %%coloque % no in\'icio desta linha para imprimir frente e verso
+  %twoside,
+  openright,
+  english,
+% french,
+% spanish,
+  brazil
+]{abntbibufjf}
+
+%% Para converter automaticamente acentos como digitados normalmente no teclado. Mude utf8 para latin1 se precisar. 	
+\usepackage[T1]{fontenc}
+%No caso do modelo Latex, pode-se usar a fam\'ilia de fontes lmodern como aqui indicado, no lugar de Arial e Times New Roman.
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+%%Pacotes padrão
+\usepackage{lmodern}
+\usepackage{lastpage}
+\usepackage{indentfirst}
+\usepackage{graphicx}
+\usepackage{microtype}
+\usepackage{xurl}
+
+%%Pacotes opcionais
+\usepackage{amsmath,amssymb}
+\usepackage{amsmath,amsthm,amsfonts,amssymb}
+\usepackage{setspace}
+\usepackage{booktabs}
+\usepackage[portuguese,algoruled,longend,linesnumbered]{algorithm2e}
+\usepackage{natbib}
+%% Para refer\^encias bibliogr\'aficas no sistema num\'erico com () na chamada da citacao.
+%\usepackage[round, numbers]{natbib}
+\usepackage{subfig}
+\usepackage{subeqnarray}
+\usepackage{pdfpages}
+\usepackage{float}
+\usepackage{listings}
+\usepackage{multirow}
+\usepackage{color,xcolor,colortbl}%Pacote de cores
+\hypersetup{hidelinks}
+% \hypersetup{
+%   colorlinks = true, %Colours links instead of ugly boxes
+%   urlcolor = blue, %Colour for external hyperlinks
+%   linkcolor = blue, %Colour of internal links
+%   citecolor = red %Colour of citations
+% }
+\usepackage{hyperref}
+
+% Define cores em RGB
+\definecolor{dkgreen}{rgb}{0,0.8,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+\definecolor{midgray}{gray}{0.1}
+\definecolor{clearGreen}{HTML}{80cc28}
+
+\lstset{
+  language = C++, % Linguagem de programação
+  basicstyle = \footnotesize, % Tamanho da fonte do código
+  numbers = left, % Posição da numeração das linhas
+  numberstyle = \scriptsize\color{black}\textbf, % Estilo da numeração de linhas
+  stepnumber = 1, % Numeração das linhas ocorre a cada quantas linhas?
+  numbersep = 10pt, % Distância entre a numeração das linhas e o código
+  backgroundcolor = \color{white}, % Cor de fundo
+  showspaces = false, % Exibe espaços com um sublinhado
+  showstringspaces = false, % Sublinha espaços em Strings
+  showtabs = false, % Exibe tabulação com um sublinhado
+  frame = trBL, % Envolve o código com uma moldura, pode ser single ou trBL
+  rulecolor = \color{black}, % Cor da moldura
+  tabsize = 2, % Configura tabulação em x espaços
+  captionpos = b, % Posição do título pode ser t (top) ou b (bottom)
+  breaklines = true, % Configura quebra de linha automática
+  breakatwhitespace= false, % Configura quebra de linha
+  %title = \lstname, % Exibe o nome do arquivo incluido
+  %caption = \lstname, % Também é possível usar caption no lugar de title
+  keywordstyle = \color{clearGreen}, % Estilo das palavras chaves
+  commentstyle = \color{clearGreen}, % Estilo dos Comentários
+  stringstyle = \color{mauve}, % Estilo de Strings
+  escapeinside = {\%*}{*)}, % Permite adicionar comandos LaTeX dentro do seu código
+  %morekeywords     ={global} % Se quiser adicionar mais palavras-chave
+  morecomment=[l]\#
+}
+
+\lstset{emph={__global__,
+    },emphstyle={\color{clearGreen}}%
+}
+
+\SetAlgorithmName{Algoritmo}{algoritmo}{Lista de Algoritmos}
+\SetKwInput{Dados}{Dados}
+\SetKwFor{For}{para}{fa\c{c}a}{fim para}
+\SetKwFor{While}{enquanto}{}{fim enquanto}
+\SetKw{KwTo}{at\'e}
+
+\renewcommand{\lstlistingname}{Algoritmo}
+
+\DeclareMathOperator{\dist}{dist}
+
+\newcommand{\revisao}[1]{\textcolor{blue}{#1}}
+%% -----------------------------------------------------------------------------
+
+%% Obs.: Alguns acentos foram omitidos.
+
+\titulo{Desenvolvimento de algoritmos para construção automática de florestas de árvores arteriais} %% Colocar, dentro de chaves {}, o t\'itulo do trabalho. 
+%\subtitulo{subt\'itulo}  %% Colocar % no in\'icio desta linha se nao tiver subt\'itulo 
+\autor{Luiz Cláudio Mesquita de Aquino} %%Colocar, dentro de chaves {}, o nome completo do autor
+\autorVirg{Aquino, Luiz Cláudio Mesquita de} %%Colocar o sobrenome do autor, separado por v\'rgula, antes do restante do nome do autor. Ex.: Santos, Maria dos
+\local{Juiz de Fora} %%Governador Valadares % N\~ao usar MG.
+\data{2022} %%Colocar o ano da entrega. Por exemplo, 2019. N\~ao usar m\^es.
+\orientador[Orientador:]{Rafael Alves Bonfim de Queiroz} %%Se precisar, troque [Orientador:] por [Orientadora:]
+\coorientador[Coorientador:]{Bernardo Martins Rocha} %% Colocar ``%'' no in\'icio desta linha se n\~ao tiver coorientador. Se precisar, troque por [Cooorientadora:]. 
+\orientadorTitulo{Prof. Dr.} %%Colocar, dentro de chaves {}, a titula\c{c}\~ao do(a) orientador(a). Por exemplo, Prof. Dr.
+\coorientadorTitulo{Prof. Dr.} %%Colocar, dentro de chaves {}, a titula\c{c}\~ao do(a) cooorientador(a). 
+\instituicao{Universidade Federal de Juiz de Fora}
+\faculdade{Instituto de Ciências Exatas} %%Colocar, dentro de chaves {}, o nome da faculdade ou do instituto.
+\programa{Programa de Pós-graduação em Modelagem Computacional} %%Colocar, dentro de chaves {}, o nome do curso. Por exemplo: Programa de P\'os\mbox{-Gra}dua\c{c}\~ao em Matem\'atica
+\objeto{Tese}  %%Tese (Doutorado)  %%%Trabalho de Conclus\~ao de Curso (gradua\c{c}\~ao)
+\natureza{Tese
+apresentada ao \insereprograma ~da   %% %%%Trabalho de conclus\~ao de curso apresentado \'a \inserefaculdade da %%%%SUBSTITUIR \'a POR ao SE FOR INSTITUTO    
+Universidade Federal de Juiz de Fora como requisito parcial \`a obten\c{c}\~ao do 
+t\'itulo de Doutor em  %%Doutor em    %%%grau de bacharel em 
+Modelagem Computacional. %%Trocar Matem\'atica por outro, se precisar.
+\'Area de concentra\c{c}\~ao: Modelagem Computacional %%%N\~ao usar esta linha se for trabalho de conclus\~ao de curso da gradua\c{c}\~ao
+}
+
+%% Abaixo, prencher com os dados da parte final da ficha catalografica
+\finalcatalog{1. Árvores Circulatórias. 2. Constrained Constructive Optimization. 3. Morfometria. 4. Hemodinâmica. I. Queiroz, Rafael Alves Bonfim de, orient. II. Rocha, Bernardo Martins, coorient. III. T\'itulo.} %% Aqui fica 
+% escrito a palavra ``T\'itulo'' mesmo, nao o do trabalho. Se tiver coorientador, os dados ficam depois dos dados 
+%% do orientador (II. Sobrenome, Nome do coorientador, coorient.) e antes de ``II. T\'itulo'', o qual passa a ``III. T\'itulo''.
+
+\begin{document}
+%% ELEMENTOS PR\'E-TEXTUAIS
+%% Capa. N\~ao entra na contagem da pagina\c{c}\~ao.
+\inserecapa
+
+%% Folha de rosto
+\inserefolhaderosto
+
+%% Ficha catalogr\'afica. AO IMPRIMIR, DEIXAR NO VERSO DA FOLHA DE ROSTO.
+\inserecatalog  
+
+%% Folha de aprovacao. Incluir mesmo que sem assinaturas. Assinaturas eletr\^onicas via SEI.
+\begin{folhadeaprovacao}
+  \inicfolhaaprov
+        
+  Aprovada em 19 de agosto de 2022. %%Preencher com a data 
+   
+  \vfill
+  \begin{center}
+    BANCA EXAMINADORA
+  \end{center}
+  \assinatura{\insereorientadorTitulo~\insereorientador \ - Orientador \\ Universidade Federal de Ouro Preto}
+  \assinatura{\inserecoorientadorTitulo~\inserecoorientador \ - Coorientador \\ Universidade Federal de Juiz de Fora}
+  \assinatura{Prof. Dr. Gastão Florêncio Miranda Júnior\\ Universidade Federal de Sergipe}
+  \assinatura{Prof. Dr. Rafael Sachetto Oliveira\\ Universidade Federal de São João del-Rei}
+  \assinatura{Prof. Dr. Ruy Freitas Reis\\ Universidade Federal de Juiz de Fora}
+  \assinatura{Prof. Dr. Heder Soares Bernardino\\ Universidade Federal de Juiz de Fora}
+\end{folhadeaprovacao}
+\cleardoublepage 
+
+%% Dedicatoria. OPCIONAL. N\~ao deve haver t\'itulo. Colocar ``%'' no in\'icio de cada das 3 linhas abaixo, caso n\~ao queira. 
+\begin{dedicatoria} 
+
+  À Luiz Paulo de Aquino Pessoa, meu amado pai (em memória).
+
+\end{dedicatoria}
+ 
+%% Agradecimentos. OPCIONAL. Caso seja bolsista, inserir os devidos agradecimentos.
+\begin{agradecimentos}
+
+O primeiro agradecimento pertence às duas pessoas que me fazem 
+levantar todos os dias: Francislene, minha Esposa, e Ana Lúcia, minha Filha.
+O amor de vocês foi imprescindível para tocar este trabalho em frente.
+
+Eu quero agradecer aos professores Rafael e Bernardo, meu orientador e meu
+co-orientador, respectivamente, por todo o empenho 
+em me apontar os caminhos necessários para conduzir o trabalho. Para (muito) além da 
+função regimental e burocrática da orientação, eu preciso destacar que 
+a empatia e compreensão de ambos foram essenciais para que eu pudesse atravessar 
+momentos de angústia durante este processo.
+
+Eu agradeço aos meus colegas de departamento na UFVJM/Campus Mucuri pela aprovação do meu 
+afastamento para dedicar-me ao doutorado.
+
+Eu agradeço também as secretárias deste programa de pós-graduação, que sempre 
+estiveram dispostas a ajudar os alunos: Samantha e Maíra.
+
+Por fim, eu agradeço ao corpo docente do Programa de Pós-Graduação em Modelagem Computacional da UFJF 
+pela disposição e ensinamentos em suas aulas que contribuíram para minha formação.
+
+Cabe agradecer ainda ao suporte financeiro das agências FAPEMIG (Proc. Num. 00795-14) e 
+CNPq através do Instituto Nacional de Ciência e Tecnologia em Medicina Assistida por Computação 
+Científica (INCT-MACC).
+
+\end{agradecimentos}
+
+\begin{epigrafemais}
+
+    ``Help me if you can, I'm feeling down,\newline
+    And I do appreciate you being 'round,\newline
+    Help me get my feet back on the ground,\newline
+    Won't you please, please help me?''\newline\newline
+    (Help! - The Beatles.)
+    \center{\includegraphics[width=2cm]{figuras/help-the-beatles-qrcode.pdf}}
+
+\end{epigrafemais}
+
+%% RESUMOS
+
+%% Resumo em Portugu\^es. OBRIGAT\'ORIO. \'E obrigat\'orio o uso de par\'agrafo \'unico.
+\begin{resumo}
+
+Os aparelhos modernos de aquisição de imagens médicas não possuem resolução suficiente para 
+detectar vasos sanguíneos com diâmetros abaixo de uma fração de milímetros. Entretanto, ter um modelo geométrico
+desses vasos é importante para estudar a hemodinâmica do sistema cardiovascular humano 
+para auxiliar no diagnóstico de doenças e no planejamento de tratamentos.
+Este trabalho apresenta novos algoritmos baseados no método 
+\textit{Constrained Constructive Optimization} (CCO). 
+Estes algoritmos possibilitam gerar um modelo da estrutura geométrica de um sistema vascular com 
+várias árvores utilizando condições de contorno fisiológicas de pressão e fluxo e 
+levando em conta a minimização do volume intravascular total durante a construção do modelo.
+Aplicam-se os algoritmos propostos na construção de  florestas vasculares em domínios de perfusão 
+não necessariamente convexos. As propriedades alométricas e morfométricas dos modelos estão em 
+concordância com aquelas de árvores arteriais reais encontradas na literatura especializada.\\[18pt]
+Palavras-chave: Árvores Circulatórias. Constrained Constructive Optimization. Morfometria. Hemodinâmica.
+
+\end{resumo}
+ 
+%% Resumo em Ingl\^es. \'E obrigat\'orio o uso de par\'agrafo \'unico.
+\begin{resumo}[ABSTRACT]
+ \begin{otherlanguage*}{english}
+
+Modern medical imaging devices do not have enough resolution to detect vascular 
+segments with a diameter below a fraction of a millimeter. However, it is needed to 
+have a geometric model of those vascular segments to study blood hemodynamics
+to aid in the diagnosis of disease and planning treatments. In this work, we propose 
+new algorithms based on the Constrained Constructive Optimization (CCO) method. 
+These algorithms generate a geometric model of the vascular system structure 
+with many trees, considering physiological flow, pressure conditions, and minimum 
+intravascular volume while constructing the model. We use those algorithms to 
+generate vascular forests on convex and non-convex perfusion domains. The 
+allometric and morphometric properties from the models are in concordance 
+with those from real vascular trees reported on the specialized literature.\\[18pt]
+Keywords: Vascular Tree. Constrained Constructive Optimization. Morphometry. Hemodynamic.
+
+\end{otherlanguage*}
+\end{resumo}
+
+%% Lista de ilustra\c{c}\~oes. OPCIONAL. Sao consideradas ilustra\c{c}\~oes: desenhos, esquemas, fluxogramas, figuras, fotografias, gr\'aficos, mapas, organogramas, plantas, quadros, entre outros. Tabelas n\~ao s\~ao consideradas ilustra\c{c}\~oes. A ordem da lista deve obrigatoriamente ser a mesma ordem em que as ilustra\c{c}\~oes aparecem no texto. Quando o t\'itulo ocupar mais de uma linha, a segunda linha deve estar exatamente abaixo da primeira.  
+\pdfbookmark[0]{\listfigurename}{lof}
+
+%Caso as ilustra\c{c}~oes do trabalho sejam todas do mesmo tipo (por exemplo, todas do tipo organograma), coloque % no in\'icio das duas linhas abaixo. 
+%\ilustvaria   %Use este comando somente caso as ilustra\c{c}\~oes n\~ao sejam todas do mesmo tipo. 
+%\listilustvaria  %Use este comando somente caso as ilustra\c{c}\~oes n\~ao sejam todas do mesmo tipo e caso queira inserir a lista delas. 
+
+%%Use este comando quando todas as ilustra\c{c}\~oes s\~ao do mesmo tipo e caso queira inserir a lista delas.
+%%Veja dicas no final deste arquivo.
+\listoffigures*  
+\cleardoublepage
+\pdfbookmark[0]{\listtablename}{lot}
+
+%% Lista de tabelas. OPCIONAL. A ordem da lista de tabelas deve obrigatoriamente ser a mesma ordem em que as tabelas aparecem no texto. 
+
+\listoftables*    %Coloque ``%'' no in\'icio desta linha, caso n\~ao queira lista de tabelas. 
+
+\cleardoublepage
+
+%% Lista de abreviaturas e siglas. OPCIONAL. Nao deve haver sinal grafico entre as siglas e abreviaturas e o significado. 
+
+%\begin{siglas} %%ALTERAR OS EXEMPLOS ABAIXO, CONFORME A NECESSIDADE
+%  \item[CCO]
+%  \item[COAT]
+%  \item[OS] Ordem de Strahler
+%  \item[AA] Árvore Aterial
+%  \item[AV] Árvore Venosa
+%\end{siglas}
+
+%% Lista de s\'imbolos. OPCIONAL. Nao deve haver sinal grafico entre o simbolo e o seu significado.
+\input{simbolos.tex}
+
+%% Sum\'ario
+\pdfbookmark[0]{\contentsname}{toc}
+\tableofcontents*
+\cleardoublepage
+
+%% ----------------------------------------------------------
+%% ELEMENTOS TEXTUAIS
+\textual
+
+\input{./capitulos/introducao.tex}
+
+\input{./capitulos/modelos-computacionais-de-arvores-circulatorias.tex}
+
+\input{./capitulos/algoritmos-propostos.tex}
+
+\input{./capitulos/resultados-alometricos-morfometricos.tex}
+
+\input{./capitulos/trabalho-futuro.tex}
+
+%% ----------------------------------------------------------
+%% ELEMENTOS POS-TEXTUAIS
+
+\postextual
+
+\bibliographystyle{plain}
+\label{bib:begin}
+  \bibliography{referencias/referencias}
+\label{bib:end}
+
+%% Apendices e Anexos nao devem ser subdivididos: A1, A2, etc.
+%% Apendices
+\input{apendice.tex}
+
+%%% Anexos
+%
+%\begin{anexos}
+%
+%  \chapter{\anexoseq T\'itulo} 
+%%%  Digita-se o titulo do anexo mantendo-se, antes, o comando \anexoseq, como indicado.
+%
+%  Este elemento \'e opcional. Apresenta um texto ou documento \textbf{n\~ao} elaborado pelo autor com o objetivo de complementar ou comprovar sua 
+%  argumenta\c{c}\~ao. 
+%
+%\end{anexos}
+\end{document}

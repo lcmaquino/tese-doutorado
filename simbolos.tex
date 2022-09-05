@@ -1,0 +1,70 @@
+\begin{simbolos}
+  \item[$V$] volume da árvore
+  \item[$r_i$] raio do segmento $i$
+  \item[$l_i$] comprimento do segmento $i$
+  \item[$R_i$] resistência hidrodinâmica de um segmento $i$
+  \item[$R_{sub,\,i}$] resistência hidrodinâmica do segmento $i$ incluindo suas subárvores 
+esquerda e direita
+  \item[$R^*_{i}$] resistência hidrodinâmica reduzida do segmento $i$
+  \item[$R^*_{sub,i}$] resistência hidrodinâmica reduzida do segmento $i$ incluindo suas subárvores 
+esquerda e direita
+  \item[$R^*_{left,\,i}$] resistência hidrodinâmica reduzida da subárvore esquerda do segmento $i$
+  \item[$r_{left,\,i}$] raio de entrada da subárvore esquerda do segmento $i$
+  \item[$R^*_{right,\,i}$] resistência hidrodinâmica reduzida da subárvore direita do segmento $i$
+  \item[$r_{right,\,i}$] raio de entrada da subárvore direita do segmento $i$
+  \item[$\beta_{i}^{left}$] razão de bifurcação entre o segmento $i$ e seu segmento filho à esquerda
+  \item[$\beta_{i}^{right}$] razão de bifurcação entre o segmento $i$ e seu segmento filho à direita
+  \item[$\eta$] viscosidade sanguínea
+  \item[$\Delta p_i$] queda de pressão ao longo do segmento $i$
+  \item[$Q_i$] fluxo sanguíneo através do segmento $i$
+  \item[$p_{perf}$] pressão de perfusão na posição proximal do segmento raiz
+  \item[$p_{perf}^t$] pressão de perfusão na posição proximal do segmento raiz da árvore $t$
+  \item[$p_{term}$] pressão na posição distal dos segmentos terminais
+  \item[$p_{term}^t$] pressão na posição distal dos segmentos terminais da árvore $t$
+  \item[$Q_{perf}$] fluxo sanguíneo no segmento raiz da árvore
+  \item[$Q_{perf}^t$] fluxo sanguíneo no segmento raiz da árvore $t$
+  \item[$Q_{term,\,i}$] fluxo sanguíneo no segmento terminal $i$
+  \item[$Q_{term}^t$] fluxo sanguíneo nos segmentos terminais da árvore $t$
+  \item[$q_{targ}^t$] fluxo alvo na raiz da árvore $t$
+  \item[$\Delta p$] queda de pressão total da árvore
+  \item[$\Delta p^t$] queda de pressão total da árvore $t$
+  \item[$r$] raio do segmento pai na bifurcação
+  \item[$r_{left}$] radio do segmento filho à esquerda na bifurcação
+  \item[$r_{right}$] radio do segmento filho à direita na bifurcação
+  \item[$\gamma$] expoente da lei de bifurcação
+  \item[$K_{tot}$] número de segmentos na árvore em estágio de crescimento
+  \item[$N_{term}$] número de segmentos terminais na árvore no estágio final de crescimento
+  \item[$K_{term}$] número de segmentos terminais na árvore em estágio de crescimento
+  \item[$N_{con}$] número de conexões temporárias para serem otimizadas geometricamente
+  \item[$d_{min}$] distância mínima
+  \item[$\dist$] distância
+  \item[$\dist_{crit}$] distância crítica
+  \item[$N_{toss}$] número máximo de vezes que um novo ponto deve ser sorteado antes de relaxar a distância mínima
+  \item[$D_{perf}$] domínio de perfusão
+  \item[$D_i$] subregião $i$ do domínio de perfusão $D_{perf}$
+  \item[$iroot$] índice do segmento raiz.
+  \item[$inew$] índice do novo segmento terminal
+  \item[$ibif$] índice do segmento de bifurcação (que é pai do novo segmento terminal)
+  \item[$icon$] índice do segmento de conexão (cujo pai é o segmento de bifurcação)
+  \item[$\mathbf{x}_{root}$] ponto proximal do segmento raiz
+  \item[$\mathbf{x}_{prox}^t$] ponto proximal do segmento raiz da árvore $t$
+  \item[$\mathbf{x}_{inew}$] novo ponto distal de um segmento terminal
+  \item[$\mathbf{x}_{ibif}$] novo ponto distal do segmento de bifurcação
+  \item[$\mathbf{x}_{icon}$] novo ponto distal do segmento de conexão
+  \item[$\mathbf{x}_{opt}$] novo ponto distal do segmento de bifurcação após otimização geométrica
+  \item[$n_{\max}$] nível máximo de bifurcação em uma árvore
+  \item[$\mathbf{x}_{i}^t$] ponto proximal do novo segmento $i$ na árvore $t$
+  \item[$d_{cn}^t$] distância entre um dado ponto $\mathbf{x}_{inew}$ e o ponto proximal do segmento raiz da árvore $t$
+    que está mais próximo de $\mathbf{x}_{inew}$
+  \item[$q_{targ}^{cn}$] fluxo alvo da árvore com ponto proximal do segmento raiz que está mais próximo de um dado
+    ponto $\mathbf{x}_{inew}$
+  \item[$l_{\max}^t$] distância máxima permitida entre um dado ponto $\mathbf{x}_{inew}$ e ponto proximal do segmento raiz
+    da árvore $t$
+  \item[$\chi_{K_{term}}^t$] razão entre o fluxo da árvore $t$ no estágio de desenvolvimento $K_{term}$ e o maior fluxo 
+  entre todas as árvores da floresta nesse estágio
+  \item[$\chi_{targ}^t$] razão entre o fluxo alvo da árvore $t$ e o maior fluxo alvo entre todas as árvores
+  \item[$\beta$] fator de redução
+  \item[$\alpha$] coeficiente de invasão ou coeficiente de estágio
+  \item[$\lambda$] peso do território
+  \item[$P_{cn}^t$] ponto distal na árvore $t$ que está mais próximo de um dado ponto $P$.
+\end{simbolos}
